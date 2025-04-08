@@ -52,23 +52,6 @@ body {
   font-size: 0.9rem;
 }
 
-.church-info-bar .container {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  gap: 15px;
-}
-
-.info-item {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.info-item i {
-  font-size: 1rem;
-}
-
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .church-info-bar .container {
@@ -133,7 +116,7 @@ nav ul li a:hover {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('church-bg.jpg');
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     text-align: center;
