@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Church of Christ Zhewun</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Church of Christ Zhewun</a>
+              
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              
+              <!-- Use ms-auto to push nav items to the right -->
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#sermons">Sermons</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#events">Events</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contacts</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          
+
+    
+    </header>
+
+    <section id="home" class="hero">
+      <div class="hero-bg"></div>
+        <div class="px-4 py-5 my-5 text-center">
+            <h1 class="display-5 fw-bold text-body-emphasis">The Family of God</h1>
+            <div class="col-lg-6 mx-auto">
+              <p class="lead mb-4">Step into a world where meaningful connections and eternal hope come to life at the West Palm Beach Church of Christ.</p>
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <a href="#contact"><button type="button" class="btn btn-primary btn-lg px-4 gap-3">Plan a visit</button></a>
+                <a href="#sermons"><button type="button" class="btn btn-outline-secondary btn-lg px-4">Watch Sermons</button></a>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container my-5">
+            <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+              <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                <h1 class="display-4 fw-bold lh-1 text-body-emphasis">About Our Church</h1>
+                <p class="lead">We are a community of believers dedicated to spreading the Gospel and serving our neighbors. Join us for worship every Sunday at 9:00 AM</p>
+              </div>
+              <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                  <img class="rounded-lg-3" src="images/IMG_3056.JPG" alt="" width="720">
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section id="sermons" class="sermons">
+        <div class="container">
+            <h2>Recent Sermons</h2>
+            <div class="sermon-grid">
+                <!-- Sermon 1 -->
+                <div class="sermon-card">
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/01wKxpipx-c?si=W0-UK1w_1QBQvAJl" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h3>Don't Give up on God</h3>
+                    <p class="date">April 20, 2025</p>
+                    <p class="description">In this sermon, Bro. Ibe encourages us to not give up on the Lord and uses Saul and Samson as case studies.</p>
+                    <a href="#" class="read-more" data-sermon="1">Sermon Text not available</a>
+                    <div class="sermon-text" id="sermon-text-1">
+                        <p>Full sermon text would go here...</p>
+                    </div>
+                </div>
+
+                <!-- Sermon 2 -->
+                <div class="sermon-card">
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/J15nK7IJziQ?si=nOoQLCrlu-fRuI-G" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h3>How to trust God in Difficult times</h3>
+                    <p class="date">April 13, 2025</p>
+                    <p class="description">A message about trusting God when things get tough</p>
+                    <a href="#" class="read-more" data-sermon="2">Sermon Text not available</a>
+                    <div class="sermon-text" id="sermon-text-2">
+                        <p>Full sermon text would go here...</p>
+                    </div>
+                </div>
+
+                <!-- Add more sermons as needed -->
+            </div>
+        </div>
+    </section>
+
+    <section id="events" class="events">
+
+        <div class="container px-4 py-5" id="featured-3">
+            <h2 class="pb-2 border-bottom">Upcoming Events</h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+              <div class="feature col">
+                <h3 class="fs-2 text-body-emphasis">Bible Study</h3>
+                <p>Every Wednesday at 6:00PM.</p>
+              </div>
+              <div class="feature col">
+                <h3 class="fs-2 text-body-emphasis">Sister's Class</h3>
+                <p>Every Thursday at 5:00PM</p>
+              </div>
+              <div class="feature col">
+                <h3 class="fs-2 text-body-emphasis">House Fellowship</h3>
+                <p>Every Saturday at 5:00PM</p>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Church of Christ Zhewun. All Rights Reserved.</p>
+            <div class="social">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>
